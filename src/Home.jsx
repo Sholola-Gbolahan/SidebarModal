@@ -8,10 +8,10 @@ const Home = () => {
   console.log(openModal, openSidebar)
   return (
     <main>
-      <button onClick={openModal} className="sidebar-toggle">
+      <button onClick={openSidebar} className="sidebar-toggle">
         <FaBars />
       </button>
-      <button onClick={openSidebar} className="btn">
+      <button onClick={openModal} className="btn">
         Show Modal
       </button>
     </main>
