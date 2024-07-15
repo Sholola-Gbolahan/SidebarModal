@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa"
 
 const Home = () => {
   const { openModal, openSidebar } = useGlobalContext()
-  console.log(openModal, openSidebar)
+
   return (
     <main>
       <button onClick={openSidebar} className="sidebar-toggle">
